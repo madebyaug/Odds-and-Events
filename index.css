@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border: none;
+  color: black;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.divInputs {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  pointer-events: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  margin: 25px;
+}
+
+input,
+.divInputs,
+#app {
+  flex: 1;
+}
+
+h1 {
+  font-size: xxx-large;
+  letter-spacing: -1px;
+}
+
+h2 {
+  min-width: 80px;
+}
+
+input,
+h2,
+button {
+  padding: 0 5px;
+}
+
+p,
+input,
+button {
+  font-size: large;
+}
+
+.subheader {
+  display: flex;
+  gap: 5px;
+}
